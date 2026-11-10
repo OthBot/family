@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Merci mes amis 💖</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 50%, #fbc2eb 100%);
+    min-height: 100vh;
+    color: #4a2c3a;
+    padding: 30px 15px;
+    overflow-x: hidden;
+  }
+  .container { max-width: 800px; margin: 0 auto; }
+
+  h1 {
+    text-align: center;
+    font-size: 2.4em;
+    color: #fff;
+    text-shadow: 2px 2px 8px rgba(180, 60, 100, 0.6);
+    margin-bottom: 10px;
+  }
+  .subtitle {
+    text-align: center;
+    font-style: italic;
+    color: #7a3b55;
+    margin-bottom: 35px;
+    font-size: 1.1em;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(150, 50, 90, 0.25);
+    margin-bottom: 30px;
+    backdrop-filter: blur(6px);
+  }
+
+  .card p { line-height: 1.7; margin-bottom: 15px; font-size: 1.05em; }
+
+  h2 {
+    text-align: center;
+    color: #c2417a;
+    margin-bottom: 25px;
+    font-size: 1.6em;
+  }
+
+  .ami {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    padding: 15px 20px;
+    margin-bottom: 14px;
+    box-shadow: 0 4px 12px rgba(200, 100, 140, 0.15);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .ami:hover {
+    transform: translateX(8px) scale(1.02);
+    box-shadow: 0 6px 18px rgba(200, 100, 140, 0.3);
+  }
+  .emoji { font-size: 2em; margin-right: 18px; }
+  .info strong { display: block; font-size: 1.15em; color: #b0306a; }
+  .info span { font-size: 0.95em; color: #7a5a68; font-style: italic; }
+
+  .final {
+    text-align: center;
+    font-size: 1.15em;
+    line-height: 1.8;
+  }
+  .big-heart {
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    animation: beat 1.4s infinite;
+    margin-top: 10px;
+  }
+  @keyframes beat {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.18); }
+  }
+
+  .heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 1.5em;
+    opacity: 0.7;
+    animation: float 8s linear infinite;
+    pointer-events: none;
+  }
+  @keyframes float {
+    0% { transform: translateY(0) rotate(0deg); opacity: 0.7; }
+    100% { transform: translateY(-110vh) rotate(360deg); opacity: 0; }
+  }
+  /* ---- Phrase taquine ultra voyante ---- */
+  .taquinerie {
+    margin: 30px 0 20px;
+    font-weight: 900;
+    font-size: 2.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    color: #fff;
+    text-shadow:
+      0 0 8px #ff2d95,
+      0 0 16px #ff2d95,
+      0 0 26px #ff00cc,
+      3px 3px 0 #7a0050;
+    animation: wiggle 1.2s infinite, glow 1.8s infinite alternate;
+  }
+  .taquinerie .vos {
+    display: inline-block;
+    color: #fff700;
+    text-shadow: 0 0 10px #ff8800, 0 0 20px #ff0000, 2px 2px 0 #a00;
+  }
+  .taquinerie .modia {
+    display: inline-block;
+    background: linear-gradient(90deg, #ff004d, #ff9900, #ffee00, #00ff88, #00c3ff, #a000ff, #ff004d);
+    background-size: 400% 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.4em;
+    animation: rainbow 3s linear infinite, pop 1s infinite alternate;
+  }
+  @keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 400% 50%; }
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-2deg) scale(1); }
+    50% { transform: rotate(2deg) scale(1.04); }
+  }
+  @keyframes glow {
+    from { filter: brightness(1); }
+    to { filter: brightness(1.3); }
+  }
+  @keyframes pop {
+    from { transform: scale(1); }
+    to { transform: scale(1.12); }
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Merci infiniment 💝</h1>
+  <p class="subtitle">À vous, mes amis en or</p>
+
+  <div class="card">
+    <p>Quand j'ai découvert votre cadeau commun, mon cœur a fait un bond. Vous avez réuni vos forces, votre générosité et votre affection pour me faire plaisir… et franchement, <strong>vous avez réussi au-delà de mes espérances</strong> 🥹.</p>
+    <p>Ce n'est pas juste un cadeau : c'est un souvenir de votre amitié, et ça, ça n'a pas de prix.</p>
+  </div>
+
+  <div class="card">
+    <h2>🌸 Mes remerciements personnalisés 🌸</h2>
+
+    <div class="ami">
+      <span class="emoji">👑</span>
+      <div class="info">
+        <strong>Cherif</strong>
+        <span>Le « bitch pro max » préféré — tu restes au top, mon gars !</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">🦾</span>
+      <div class="info">
+        <strong>Sako</strong>
+        <span>le bitch de classe S — classe S .......L'homme qui transforme les elephant vivant en statuts 😂 😎</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">👦</span>
+      <div class="info">
+        <strong>Issouf</strong>
+        <span>mon fils tchrrr — merci d'exister, même si je dois te supporter 😂</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">🔥</span>
+      <div class="info">
+        <strong>Stella</strong>
+        <span>ma sista Lucifera😂 — la seule et unique, merci pour tout 💜</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">💐</span>
+      <div class="info">
+        <strong>Diane</strong>
+        <span>ma chère amie — ta gentillesse me touche énormément</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">🌷</span>
+      <div class="info">
+        <strong>Leaticia</strong>
+        <span>ma chère amie — merci d'être  là</span>
+      </div>
+    </div>
+
+    <div class="ami">
+      <span class="emoji">🌟</span>
+      <div class="info">
+        <strong>Charifa</strong>
+        <span>ma chère amie — merci pour ta présence et ta générosité 💫</span>
+      </div>
+    </div>
+
+  </div>
+
+    <div class="card final">
+    <p>Ce cadeau, je ne l'oublierai jamais.<br>
+    Vous êtes mes <strong>joyaux</strong>, ma petite famille choisie.<br>
+    Merci pour votre amitié, votre humour et votre love. ❤️</p>
+
+    <div class="taquinerie">
+      Maintenant <span class="vos">VOS</span> <span class="modia">MODIA</span> vous tous 😂😂
+    </div>
+
+    <span class="big-heart">💖</span>
+  </div>
+</div>
+
+<script>
+  const emojis = ['💖','💕','🌸','✨','💝','💗'];
+  setInterval(() => {
+    const h = document.createElement('div');
+    h.className = 'heart';
+    h.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+    h.style.left = Math.random() * 100 + 'vw';
+    h.style.animationDuration = (6 + Math.random() * 5) + 's';
+    document.body.appendChild(h);
+    setTimeout(() => h.remove(), 11000);
+  }, 700);
+</script>
+
+</body>
+</html>
